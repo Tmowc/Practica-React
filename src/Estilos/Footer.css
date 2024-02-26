@@ -1,0 +1,55 @@
+/* Estilos del footer*/
+.contenedorFooter{
+    width: 100%;
+    min-width: 20em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 2.5em;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #6d085e 100%); /* 207.8deg*/
+}
+    .social{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
+    .contacto-container{
+        display: flex;
+    }
+    .contacto-container p{
+        margin-top: 2em;
+        font-size: 1.1rem;
+        font-weight: bold;
+       color: rgba(255, 254, 255, 0.7);
+    }
+    .enlaces ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .enlaces li{
+        padding-top: 0;
+    }
+    .enlaces li a{
+        text-decoration: none;
+        font-size: 1.2rem;
+       color: rgba(255, 254, 255, 0.7);
+    }
+
+    .contacto ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    .contacto li{
+        padding-top: 0;
+    }
+    .contacto li a{
+        text-decoration: none;
+        font-size: 1.2rem;
+       color: rgba(255, 254, 255, 0.7);
+    }
+    .contacto img{
+        width: 2em;
+        height: 1.5em;
+    }

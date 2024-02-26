@@ -1,0 +1,16 @@
+.inicio{
+    color: #390932;
+    background-color: white;
+    border: none ;
+    font-weight: 500;
+    margin-left: 1.5em;
+    height: 2.75em;
+}
+.inicio a{
+text-decoration: none;
+color: #390932;
+}
+
+.inicio:hover{
+background-color: white;
+}

@@ -1,0 +1,42 @@
+/*Estilos del header*/
+
+.contenedor-principal-header{
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #6d085e 100%); 
+    }
+    
+    .titulo-principal{
+        font-family: Kalam, sans-serif ;
+        color: rgba(243, 114, 204, 0.7);
+        font-size: 3.125rem;
+    }
+    .parrafo-cabecera{
+        font-family: 'Bricolage Grotesque';
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: rgba(243, 114, 204, 0.7);
+    }
+    .logo{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+
+h6{
+    color: #390932;
+}
+.colorFuente{
+    color: #390932 !important;
+}
+.boton{
+    color: #390932 !important;
+    background-color: white !important;
+    border: none !important;
+    font-weight: 500 !important;
+    height: 2.75em !important;
+}
+
+main{
+    padding-top: 22em;
+}
+
+

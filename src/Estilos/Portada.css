@@ -1,0 +1,48 @@
+h2{
+    font-family: Bicolage Grotesque, sans-serif ;
+    font-size: 1.813rem;
+    font-weight:600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Fjalla One';
+    color: black;
+}
+
+/*Generando una grilla de 3 filas y dos columnas para que se reparta mejor el contenido*/
+.destacado-semana{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: [x0] 1fr[x1] 1fr[x2];
+    grid-template-rows: [y0] 1fr [y1] 1fr[y2]; /* Peronalizando la primera fila (7em) tendra un valor diferente*/
+    gap: 3em;
+}
+
+/*Personalizando el título 2h de la sección destacados de la semana*/
+.titulo-seccion-cine{
+    font-size: 2.9rem; 
+}
+/*.destacado-semana > [id*='y0'] { /* variando el espacio donde se encuentra el contenido de la celda
+    height: 5em;
+  }/*
+
+  /* nos "desplazamos" y ubicamos en la celda que corresponde a cada card*/
+.card1{
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+}
+.card2{
+    grid-column: x1/x2;
+    grid-row: y0 / y1;
+}
+.card3{
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+}
+.card4{
+    grid-column: x1 / x2;
+    grid-row: y1 / y2;
+}
+
+/*Estilos seccion estrenos*/

@@ -1,0 +1,38 @@
+.buscar input{
+    padding-left: .5em;
+    margin-right: .5em;
+}
+.boton-buscar{
+background-color: #390932;
+border: none;
+color: white;   
+}
+.fundadores-container{
+background-color: #390932;
+border-top-right-radius: 3em;
+border-bottom-right-radius: 3em;
+}
+.fundadores-container h3{
+font-size: 1.2rem;
+font-weight: bold;
+font-family: 'Bricolage Grotesque';
+color: white;
+}
+.fundadores-container p{
+font-weight: bold;
+font-family: 'Bricolage Grotesque';
+color: white;
+}
+
+.fundadores{
+border-top-right-radius: 10em;
+border-bottom-right-radius: 10em;
+}
+.patrocinadores{
+border: solid 0.1em #390932;
+}
+h4{
+font-weight: bold;
+font-family: 'Bricolage Grotesque';
+color: #390932;
+}
