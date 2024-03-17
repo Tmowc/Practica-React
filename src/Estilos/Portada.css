@@ -2,6 +2,7 @@ h2{
     font-family: Bicolage Grotesque, sans-serif ;
     font-size: 1.813rem;
     font-weight:600;
+    color: #390932;
 }
 h3{
     font-size: 1.5rem;
@@ -22,6 +23,7 @@ h3{
 /*Personalizando el título 2h de la sección destacados de la semana*/
 .titulo-seccion-cine{
     font-size: 2.9rem; 
+    
 }
 /*.destacado-semana > [id*='y0'] { /* variando el espacio donde se encuentra el contenido de la celda
     height: 5em;

@@ -1,0 +1,14 @@
+.encabezado-suscribir{
+    width: 100%;
+    height: auto;
+}
+.encabezado-suscribir h2{
+    font-size: 7rem;
+    font-weight: bold; 
+}
+.encabezado-suscribir p{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}

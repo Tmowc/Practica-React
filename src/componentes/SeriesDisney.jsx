@@ -1,29 +1,25 @@
-import React from 'react';
-import '../Estilos/EstrenosCine.css';
-import '../Estilos/Portada.css';
+import React from 'react'
 import { BotonTrailers } from './BotonTrailers';
+import Loki from '../assets/loki.webp';
+import Moon from '../assets/Moon_Knight.webp';
 
 
-//importando imagenes
-import Falcon from '../assets/estreni1.webp';
-import Wall from '../assets/estreno2.webp';
-
-export const EstrenosCine = ( {oculto,  tituloSeccion, imagen, tituloPelicula, genero, direccion1, direccion2, reparto, sinompsis } ) => {
+export const SeriesDisney = ( { oculto,  tituloSeccion, imagenSerie, tituloSerie, genero, direccion1, direccion2, reparto, sinompsis } ) => {
   return (
     <>
-       {oculto && 
+            {oculto && 
         <div> 
-        <h2 className="text-center mb-4 ">{tituloSeccion && 'Estrenos'}</h2> 
+        <h2 className="h2 text-center mb-4">{tituloSeccion && 'Series'}</h2> 
           
                                 
               <div className="caja-estrenos">
                   <div className="imagen-container">
-                      <img className="img-fluid" src={imagen? Falcon : Wall} alt="Imagen poster de presentación de la película estreno Falcon Lake"/>
+                      <img className="img-fluid" src={imagenSerie?  Loki : Moon} alt="Imagen poster de presentación de la serie Loki"/>
                   </div>
  
                   <div>
-                          <div className="nombres-estreno">
-                              <p className="fs-4 fw-bold">{tituloPelicula}</p>
+                          <div>
+                              <p className="fs-4 fw-bold">{tituloSerie}</p>
                               <p className="fs-7"> {genero}</p>
                           </div>
                           <div className="datos">
@@ -32,7 +28,7 @@ export const EstrenosCine = ( {oculto,  tituloSeccion, imagen, tituloPelicula, g
                           </div>
                               
                           
-                          <div className="sinompsis-estreno">
+                          <div>
                               <p className="fs-6">{sinompsis}</p>
                           </div>   
                            <BotonTrailers/>
@@ -43,8 +39,6 @@ export const EstrenosCine = ( {oculto,  tituloSeccion, imagen, tituloPelicula, g
                </div>
         </div>
        } 
-       
-       
     </>
   )
 }
